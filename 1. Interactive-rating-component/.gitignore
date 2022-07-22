@@ -5,6 +5,4 @@
 .prettierignore
 /node_modules
 /design
-README.md
-style-guide.md
 notes.txt
