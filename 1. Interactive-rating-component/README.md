@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Watch it live here](ratingcomponentproject.netlify.app)
+- [Watch it live here](https://app.netlify.com/sites/ratingcomponentproject/settings/general)
 
 ## My process
 
