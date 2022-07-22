@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Component Screenshot](./screenshot.jpg)
+![Component Screenshot](./screenshot.png)
 
 ### Links
 
@@ -34,11 +34,7 @@ Users should be able to:
 
 ## My process
 
-My approach for this one was to focus first on the design to assess how should I bouild the component.
-
-Once I got a feeling of how to do it I started with setting up Tailwind and its configuration with the styles provided by Frontend Mentor.
-
-Then it a matter of structuring the layout the way I planned and adjust a couple of things along the way.
+My approach for this one was to focus first on the design to assess how should I bouild the component. Once I got a feeling of how to do it I started with setting up Tailwind and its configuration with the styles provided by Frontend Mentor. Then it a matter of structuring the layout the way I planned and adjust a couple of things along the way.
 
 Lastly I used JavaScript to add a little bit of interactivity by showing the **Thank You** state of the component once the submit button was clicked. Also grabbed the value of the clicked rate and use it to show a dynamic message in the Thank You state.
 
