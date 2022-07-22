@@ -63,8 +63,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/css/input.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "Marcelo Sosa <sosamarcelo92@gmail.com>",
