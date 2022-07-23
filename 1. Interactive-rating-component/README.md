@@ -50,7 +50,7 @@ Flexbox sometimes can be annoying. For example, the background for the star in t
 
 ```css
 .children {
-  align-self: start;
+  align-self: flex-start;
 }
 ```
 
