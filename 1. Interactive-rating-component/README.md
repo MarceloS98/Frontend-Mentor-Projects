@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Watch it live here:
+- [Watch it live here](https://ratingcomponentproject.netlify.app/)
 
 ## My process
 
@@ -50,7 +50,7 @@ Flexbox sometimes can be annoying. For example, the background for the star in t
 
 ```css
 .children {
-  align-self: start;
+  align-self: flex-start;
 }
 ```
 
