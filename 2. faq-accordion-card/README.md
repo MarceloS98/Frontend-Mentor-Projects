@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-[Watch my solution live]([https://your-live-site-url.com](https://faq-accordion-proyecto.netlify.app/))
+[Watch my solution live](https://your-live-site-url.com](https://faq-accordion-proyecto.netlify.app/)
 
 ## My process
 
