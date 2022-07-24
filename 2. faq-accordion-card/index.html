@@ -1,40 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <script
+      src="https://kit.fontawesome.com/450cb384cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>FAQ Accordion Card</title>
+  </head>
+  <body class="bg-SoftViolet">
+    <!-- Container -->
+    <section
+      class="relative mx-auto mb-10 mt-[20vh] flex w-10/12 max-w-lg flex-col rounded-3xl bg-white lg:grid lg:max-w-screen-lg lg:grid-cols-12"
+    >
+      <!-- img -->
+      <div
+        class="absolute mx-auto w-9/12 max-w-xs -translate-y-[65%] self-center lg:absolute lg:left-0 lg:col-start-1 lg:col-end-6 lg:w-full lg:max-w-full lg:translate-y-0 lg:-translate-x-20"
+      >
+        <!-- Woman illustration -->
+        <img
+          src="./src/images/illustration-woman-online-mobile.svg"
+          alt=""
+          class="w-full"
+        />
+        <!-- Shadow -->
+        <img
+          src="./src/images/bg-pattern-mobile.svg"
+          alt=""
+          class="absolute -translate-y-3/4 lg:w-full"
+        />
+      </div>
+      <!-- Content -->
+      <div
+        class="padding-responsive flex flex-col items-center px-8 pb-14 lg:col-start-6 lg:col-end-12 lg:px-0 lg:pt-20 lg:pb-20"
+      >
+        <h2 class="mb-5 text-4xl font-bold lg:mb-10 lg:self-start">FAQ</h2>
+        <!-- Questions -->
+        <div
+          class="flex flex-col gap-4 lg:w-[455px] lg:self-start"
+          id="questions"
+        >
+          <!-- Question 1 -->
+          <article
+            class="question-container flex cursor-pointer justify-between gap-4 border-b-2 border-solid border-LightGrayishBlue pb-4"
+          >
+            <!-- Question / Answer -->
+            <div
+              class="info flex max-w-[330px] cursor-pointer flex-col gap-3 lg:w-full lg:max-w-[430px]"
+            >
+              <p
+                class="text-lg leading-tight text-VeryDarkDesaturatedBlue hover:text-SoftRed"
+              >
+                How many team members can I invite?
+              </p>
+              <p class="hidden leading-relaxed">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+              <span class="arrow-up hidden">
+                <i class="fa-solid fa-angle-up text-SoftRed"></i>
+              </span>
+              <span class="arrow-down">
+                <i class="fa-solid fa-angle-down text-SoftRed"></i>
+              </span>
+            </div>
+          </article>
+          <!-- Question 2 -->
+          <div
+            class="question-container flex cursor-pointer justify-between gap-4 border-b-2 border-solid border-LightGrayishBlue pb-4"
+          >
+            <!-- Question / Answer -->
+            <div
+              class="info flex max-w-[330px] cursor-pointer flex-col gap-3 lg:w-full lg:max-w-[430px]"
+            >
+              <p class="text-lg leading-tight hover:text-SoftRed">
+                What is the maximum file upload size?
+              </p>
+              <p class="hidden leading-relaxed">
+                No more than 2GB. All files in your account must fit your
+                alloted storage space.
+              </p>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+              <div class="arrow-up hidden">
+                <i class="fa-solid fa-angle-up text-SoftRed"></i>
+              </div>
+              <div class="arrow-down">
+                <i class="fa-solid fa-angle-down text-SoftRed"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Question 3 -->
+          <div
+            class="question-container flex cursor-pointer justify-between gap-4 border-b-2 border-solid border-LightGrayishBlue pb-4"
+          >
+            <!-- Question / Answer -->
+            <div
+              class="info flex max-w-[330px] cursor-pointer flex-col gap-3 lg:w-full lg:max-w-[430px]"
+            >
+              <p class="text-lg leading-tight hover:text-SoftRed">
+                How do I reset my password?
+              </p>
+              <p class="hidden leading-relaxed">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+              <div class="arrow-up hidden">
+                <i class="fa-solid fa-angle-up text-SoftRed"></i>
+              </div>
+              <div class="arrow-down">
+                <i class="fa-solid fa-angle-down text-SoftRed"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Question 4 -->
+          <div
+            class="question-container flex cursor-pointer justify-between gap-4 border-b-2 border-solid border-LightGrayishBlue pb-4"
+          >
+            <!-- Question / Answer -->
+            <div
+              class="info flex max-w-[330px] cursor-pointer flex-col gap-3 lg:w-full lg:max-w-[430px]"
+            >
+              <p class="text-lg leading-tight hover:text-SoftRed">
+                Can I cancel my subscription?
+              </p>
+              <p class="hidden leading-relaxed">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+              <div class="arrow-up hidden">
+                <i class="fa-solid fa-angle-up text-SoftRed"></i>
+              </div>
+              <div class="arrow-down">
+                <i class="fa-solid fa-angle-down text-SoftRed"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Question 5 -->
+          <div
+            class="question-container flex cursor-pointer justify-between gap-4 border-b-2 border-solid border-LightGrayishBlue pb-4"
+          >
+            <!-- Question / Answer -->
+            <div
+              class="info flex max-w-[330px] cursor-pointer flex-col gap-3 lg:w-full lg:max-w-[430px]"
+            >
+              <p class="text-lg leading-tight hover:text-SoftRed">
+                Do you provide additional support?
+              </p>
+              <p class="hidden leading-relaxed">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+            </div>
+            <!-- Arrows -->
+            <div class="arrows">
+              <div class="arrow-up hidden">
+                <i class="fa-solid fa-angle-up text-SoftRed"></i>
+              </div>
+              <div class="arrow-down">
+                <i class="fa-solid fa-angle-down text-SoftRed"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <script src="./src/js/index.js"></script>
+  </body>
 </html>
