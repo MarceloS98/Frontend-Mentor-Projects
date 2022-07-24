@@ -41,9 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
-
-[Watch my solution live](https://your-live-site-url.com](https://faq-accordion-proyecto.netlify.app/)
-
+  [Watch my solution live](https://faq-accordion-proyecto.netlify.app/)
 ## My process
 
 ### Built with
