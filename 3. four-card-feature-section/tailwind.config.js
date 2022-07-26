@@ -15,6 +15,10 @@ module.exports = {
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
       },
+      container: {
+        center: true,
+        padding: '2rem',
+      }
     },
   },
   plugins: [],
